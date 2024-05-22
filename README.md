@@ -2,7 +2,7 @@
 
 **Hashtable** is a project for [Pharo](https://www.pharo.org) containing collections faster for big collections.
 
-[![Unit Tests](https://github.com/pharo-containers/Hashtable/workflows/Build/badge.svg?branch=master)](https://github.com/pharo-containers/Hashtable/actions?query=workflow%3ABuild)
+[![Unit Tests](https://github.com/pharo-containers/Hashtable/actions/workflows/build.yml/badge.svg)](https://github.com/pharo-containers/Hashtable/actions/workflows/build.yml)
 [![Coverage Status](https://codecov.io/github/pharo-containers/Hashtable/coverage.svg?branch=master)](https://codecov.io/gh/pharo-containers/Hashtable/branch/master)
 
 [![Pharo 7](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
