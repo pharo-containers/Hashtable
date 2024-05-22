@@ -2,8 +2,8 @@
 
 **Hashtable** is a project for [Pharo](https://www.pharo.org) containing collections faster for big collections.
 
-[![Unit Tests](https://github.com/pharo-contributions/Hashtable/workflows/Build/badge.svg?branch=master)](https://github.com/pharo-contributions/Hashtable/actions?query=workflow%3ABuild)
-[![Coverage Status](https://codecov.io/github/pharo-contributions/Hashtable/coverage.svg?branch=master)](https://codecov.io/gh/pharo-contributions/Hashtable/branch/master)
+[![Unit Tests](https://github.com/pharo-containers/Hashtable/workflows/Build/badge.svg?branch=master)](https://github.com/pharo-containers/Hashtable/actions?query=workflow%3ABuild)
+[![Coverage Status](https://codecov.io/github/pharo-containers/Hashtable/coverage.svg?branch=master)](https://codecov.io/gh/pharo-containers/Hashtable/branch/master)
 
 [![Pharo 7](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
 [![Pharo 8](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
@@ -23,7 +23,7 @@ To install Hashtable on your Pharo image you can just execute the following scri
 
 ```Smalltalk
     Metacello new
-    	githubUser: 'pharo-contributions' project: 'Hashtable' commitish: 'v1.x.x' path: 'src';
+    	githubUser: 'pharo-containers' project: 'Hashtable' commitish: 'v1.x.x' path: 'src';
     	baseline: 'Hashtable';
     	load
 ```
@@ -33,7 +33,7 @@ To add Hashtable to your baseline just add this:
 ```Smalltalk
     spec
     	baseline: 'Hashtable'
-    	with: [ spec repository: 'github://pharo-contributions/Hashtable:v1.x.x/src' ]
+    	with: [ spec repository: 'github://pharo-containers/Hashtable:v1.x.x/src' ]
 ```
 
 Note that you can replace the #v1.x.x by a branch as #master or #development or a tag as #v1.0.0, #v1.? or #v1.2.x.
